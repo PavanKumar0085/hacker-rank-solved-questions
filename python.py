@@ -14,16 +14,16 @@ import re
 import sys
 
 
-num = int(input("Please enter the number = "))
-if num %2 != 0:
-    print("you entered number is Weird")
-elif num %2 == 0:
-    print("you entered number is not Weird")
-elif num %2==0 range[0:6]:
-    print("you entered number is Weird")
-elif num %2 !=0:
-    range[5:21]
-    print("you entered number is not Weird")
+if __name__ == '__main__':
+    n = int(input().strip())
+    
+if n%2!=0 :
+    print("Weird")
+elif n%2==0 and n in range(2,6) :
+    print("Not Weird") 
+elif n%2==0 and n in range(6,21) :
+    print("Weird")
 else:
-    num %2<=20
-    print("you entered number is Weird")
+    n%2==0 and range(20<n) 
+    print("Not Weird")            
+
